@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.python:3.7
+FROM python:3
 
 ENV S6_BEHAVIOUR_IF_STAGE2_FAILS="2"
 
