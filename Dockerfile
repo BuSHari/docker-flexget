@@ -13,5 +13,3 @@ RUN chmod -v +x \
 
 # volumes.
 VOLUME /config
-
-CMD rm -f /flexget/.config-lock && flexget daemon start
