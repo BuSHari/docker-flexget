@@ -1,13 +1,13 @@
 #!/usr/bin/with-contenv bash
 
-pip3 install -U pip
+pip install -U pip
 # Make sure to install setuptools version >=36 to avoid a race condition, see:
 # https://github.com/pypa/setuptools/issues/951
-pip3 install -U setuptools>=36
-pip3 install -U urllib3[socks]
-pip3 install -U chardet
-pip3 install -U irc_bot
-pip3 install -U rarfile
-pip3 install -U subliminal
+pip install -U setuptools>=36
+pip install -U urllib3[socks]
+pip install -U chardet
+pip install -U irc_bot
+pip install -U rarfile
+pip install -U subliminal
 # Install flexget last (it might force specific versions of other packages).
-pip3 install -U flexget
+pip install -U flexget
